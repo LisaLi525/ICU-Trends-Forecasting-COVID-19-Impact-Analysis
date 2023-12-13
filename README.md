@@ -1,35 +1,44 @@
 # ICU Trends Forecasting: COVID-19 Impact Analysis
 
 ## Overview
-This project focuses on analyzing ICU trends influenced by COVID-19, using advanced machine learning techniques. It's designed for businesses and healthcare organizations to understand the impact of the pandemic on ICU admissions and prepare accordingly.
+"ICU Trends Forecasting" is a Python-based analytical project to predict ICU admissions during the COVID-19 pandemic. Using advanced machine learning techniques like ANN (Artificial Neural Networks) and LSTM (Long Short-Term Memory Networks), this project helps healthcare organizations and businesses understand and prepare for ICU capacity needs.
 
 ## Features
-- **Data Processing**: Automated functions to clean and process ICU data.
-- **Time Series Forecasting**: Utilizes ANN and LSTM models to forecast ICU trends.
-- **Scalability**: Suitable for various time series datasets beyond COVID-19 ICU data.
-- **Visual Analysis**: Includes functionality to visually compare forecasted results with actual data.
+- Automated data processing for ICU datasets.
+- Time series forecasting using ANN and LSTM models.
+- Scalable design for various time series datasets.
+- Visual comparison of forecasted results with actual ICU admission data.
 
 ## Prerequisites
-To run this project, you need Python installed along with the following libraries:
-- Pandas
-- Numpy
-- Matplotlib
-- Keras
-- Sklearn
-- Tensorflow
+- Python 3.x
+- Libraries: Pandas, NumPy, Matplotlib, Keras, Sklearn, TensorFlow
+
+## Installation
+1. Clone or download the repository to your local machine.
+2. Ensure Python 3.x is installed.
+3. Install the required Python libraries using the command:
+   ```
+   pip install pandas numpy matplotlib keras sklearn tensorflow
+   ```
 
 ## Usage
-1. **Data Preparation**: Update the `run_analysis` function with the path to your dataset.
-2. **Execute the Script**: Run the `run_analysis` function to process the data and perform forecasting.
-3. **Result Interpretation**: Review the output plots for insights into ICU trends.
+To run the analysis:
+1. Update the `filepath` variable in the `main` function with the path to your ICU data CSV file.
+2. Run the script using a Python interpreter.
+3. Review the output plots to understand the ICU trends.
 
-## Example
+Example usage:
 ```python
 run_analysis("path/to/your/icu_data.csv")
 ```
 
 ## Contributing
-We welcome contributions to enhance the project's capabilities. Please ensure to follow the project's coding standards and guidelines for new features.
+Contributions to enhance the project's functionality or performance are welcome. Please adhere to the following steps:
+1. Fork the repository.
+2. Create a new branch for your feature.
+3. Commit your changes.
+4. Push to the branch.
+5. Open a pull request.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the LICENSE.md file for details.
